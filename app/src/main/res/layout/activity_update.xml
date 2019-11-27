@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login_bg"
+    android:padding="40dp"
+    tools:context=".UpdateActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="113dp"
+        android:layout_height="38dp"
+        android:text="@string/update"
+        android:textSize="24sp"
+        android:ems="10"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+         />
+    <ImageView
+        android:id="@+id/userProfileImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_person_blue"
+        android:layout_marginTop="100dp"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/username"
+        android:drawableLeft="@drawable/ic_person_black"
+        android:hint="New Username"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/white"
+        android:paddingLeft="0dp"
+        android:drawablePadding="5dp"
+        android:textColorHint="@color/white"/>
+
+
+    <EditText
+        android:id="@+id/nameUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:drawableLeft="@drawable/ic_lock_white"
+        android:hint="New Password"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:paddingLeft="0dp"
+        android:drawablePadding="5dp"
+        android:textColorHint="@color/white"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/update"
+        android:id="@+id/updateButton"
+        android:background="@drawable/selector_xml_btn_yellow"
+        android:layout_gravity="center_horizontal"
+        />
+</LinearLayout>
